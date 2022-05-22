@@ -1,0 +1,13 @@
+import turtle
+position=turtle.Turtle()
+position.getscreen().bgcolor("#ffffe0")
+position.color("red","pink")
+position.begin_fill()
+position.left(50)
+position.forward(100)
+position.circle(40,180)
+position.left(260)
+position.circle(40,180)
+position.forward(100)
+position.end_fill()
+turtle.done()
